@@ -47,7 +47,7 @@ function search_action() {
             searchWordValue.toLowerCase(),
           )
         ) {
-          return (window.location.href = `https://ther-hub.github.io/${hitWord[dires]}/${hitWord[dires + 1][filenames]}/index.html`);
+          return (window.location.href = `https://ther-hub.github.io/${hitWord[dires]}/${hitWord[dires + 1][filenames]}.html`);
         }
       }
     }
@@ -77,3 +77,4 @@ const searchBtn = document.getElementById("search-btn");
 searchBtn.addEventListener("click", search_action);
 
 const nohit = document.getElementById("no-hit");
+
